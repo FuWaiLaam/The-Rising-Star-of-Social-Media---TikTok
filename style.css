@@ -1,25 +1,90 @@
 body{
-    background-color: #dbe8fd;
+    background-color: #000000;
 }
 
-.logo{
-    width: 10%;
-    height: 10%;
+logo{
+    width: 8%;
+    height: 8%;
     float: right;
     padding:2ch;
-    filter: drop-shadow(5px 5px 2px rgb(255, 65, 182));
+    
 }
 
 main{
-
     display: grid;
     /*grid-template-columns: 20% 80%;*/
 }
 
-aside{
-    float: left;
-    
+div{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+
 }
+
+ul{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#df1351;
+    filter: drop-shadow(15px 15px 0px #7dcacf);
+    color: #fffefe;
+}
+
+li {
+    float: left;
+}
+
+.home{
+    flex: 1;
+}
+
+.intro{
+    flex: 1;
+}
+
+.hist{
+    flex: 1;
+}
+
+.create{
+    flex: 1;
+}
+
+.market{
+    flex: 1;
+}
+
+.case{
+    flex: 1;
+}
+
+.solu{
+    flex: 1;
+}
+
+.sug{
+    flex: 1;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ /* Change the link color on hover */
+li a:hover {
+    background-color: #7dcacf;
+     /*color: white; */
+}
+
 section{ 
     background-color: #fffefe; 
     border-style: double;
@@ -30,56 +95,43 @@ section{
     
 }
 
-ul{
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color:rgb(255, 255, 255);
-    background-color:rgba(28, 28, 255, 0.582);
-    width: 200px;
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
-
 h1{
    letter-spacing:2px;
    word-spacing:0.5cm;
-   font-family:Courier, monospace;
-   font-size:30px;
-   font-size:x-large;
+   font-family:Georgia, serif;
+   font-size:large;
+   font-style:italic;
    font-weight:bold;
    font-variant:small-caps;
    line-height:20px;
-   margin:8mm;
+   margin:10mm;
    padding:5ch;
    color:rgb(255, 255, 255);
-   background-color:rgba(28, 28, 255, 0.582);
-   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+   background-color:rgba(0, 0, 0, 0);
 }
 
 h2{
-    font-family:Courier, monospace;
+    color: #000000;
+    font-family:Georgia, serif;
     text-align: center;
-    text-decoration-line: underline;
-    font-size: 26px;
+    font-size: 30px;
+    /*text-decoration-line: underline;*/
 }
 
 h3{
+    color:#000000;
+    font-family:Georgia, serif;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
+
+}
+
+h4{
+    color:#000000;
+    font-family:Georgia, serif;
+    text-align: center;
+    font-size: 20px;
+
 }
 
 article{
@@ -113,4 +165,12 @@ article{
 
 footer{
     float: left;
+    color: azure;
+}
+
+footer h3{
+    color:azure;
+    font-family: serif, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: 20px;
 }
