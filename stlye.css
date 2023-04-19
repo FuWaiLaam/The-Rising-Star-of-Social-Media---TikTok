@@ -1,0 +1,30 @@
+body{
+    background-color: #dbe8fd;
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+    float: right;
+}
+
+section{ 
+    background-color: #fffefe; 
+}
+
+h2{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.chain{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+.sushiro{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
