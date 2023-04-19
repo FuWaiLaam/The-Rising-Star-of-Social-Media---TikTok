@@ -30,10 +30,29 @@ section{
     
 }
 
-aside ol{
+ul{
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    background-color:rgba(28, 28, 255, 0.582);
+    width: 200px;
 }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
 
 h1{
    letter-spacing:2px;
@@ -52,6 +71,7 @@ h1{
 }
 
 h2{
+    font-family:Courier, monospace;
     text-align: center;
     text-decoration-line: underline;
     font-size: 26px;
@@ -93,9 +113,4 @@ article{
 
 footer{
     float: left;
-}
-
-ol {
-    color:rgb(255, 255, 255);
-    background-color:rgba(28, 28, 255, 0.582);
 }
